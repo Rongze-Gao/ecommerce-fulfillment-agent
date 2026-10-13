@@ -1,0 +1,19 @@
+# Database and configuration
+mysql-connector-python==9.3.0
+python-dotenv==1.1.0
+
+# Redis client
+redis==5.3.1
+
+# Agent framework
+langchain==1.0.8
+langgraph==1.0.3
+langchain-ollama==1.0.0
+langchain-text-splitters==1.0.0
+
+# MCP 服务端与 LangChain 客户端适配
+mcp==1.30.0
+langchain-mcp-adapters==0.2.1
+
+# Persistent chat history
+langchain-community==0.4.1
